@@ -1,0 +1,51 @@
+*{
+    font-size:arial;
+   
+}
+.container{
+    /*background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_tmh6TfecEOy0hEdaS1b0V5HjTpIfP8ZVXg&usqp=CAU')*/
+    
+}
+.bg-gray{
+    background-color: rgb(51, 29, 129);
+    color: black;
+}
+.height-carousel{
+min-height: 300px;
+max-height: 300px;
+}
+.fa-facebook{
+font-size: 3rem;
+color: blue;
+}
+.fa-whatsapp{
+    font-size: 3rem;
+    color: rgb(39, 204, 66); 
+}
+
+.img-inicio{
+    width: 200px;
+    border-radius: 10%;
+    border:2px rgb(201, 66, 66) solid;
+}
+.img-product img{
+    width: 40%;
+    border: 2px rgb(197, 7, 7) solid;
+    border-radius: 30px;
+}
+.img-product img:hover{
+    border: 5px pink solid;
+    border-radius: 30px;
+    box-shadow: 3px 5px 5px #706f6f;
+    
+}
+.bg-card{
+    border: 5px rgb(233, 213, 32) solid;
+    border-radius: 30px;
+    box-shadow: 3px 5px 5px #706f6f;
+}
+.bg-card:hover{
+    border: 5px rgb(163, 43, 13) solid;
+    border-radius: 30px;
+    box-shadow: 3px 5px 5px #706f6f;
+}
