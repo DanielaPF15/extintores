@@ -15,14 +15,17 @@ min-height: 300px;
 max-height: 300px;
 }
 .fa-facebook{
+    padding: 10px;
 font-size: 3rem;
 color: blue;
 }
 .fa-whatsapp{
+    padding: 10px;
     font-size: 3rem;
     color: rgb(39, 204, 66); 
 }
 .fa-envelope{
+    padding: 10px;
     font-size: 3rem;
     color: rgb(207, 4, 4);
 }
@@ -32,19 +35,9 @@ color: blue;
     border-radius: 10%;
     border:2px rgb(201, 66, 66) solid;
 }
-.img-product img{
-    width: 40%;
-    border: 2px rgb(197, 7, 7) solid;
-    border-radius: 30px;
-}
-.img-product img:hover{
-    border: 5px pink solid;
-    border-radius: 30px;
-    box-shadow: 3px 5px 5px #706f6f;
-    
-}
+
 .bg-card{
-    border: 5px rgb(233, 213, 32) solid;
+    border: .5s solid;
     border-radius: 30px;
     box-shadow: 3px 5px 5px #706f6f;
 }
@@ -52,4 +45,27 @@ color: blue;
     border: 5px rgb(163, 43, 13) solid;
     border-radius: 30px;
     box-shadow: 3px 5px 5px #706f6f;
+}
+/*img*/
+.img-product img{
+    width: 50%;
+    height: 50%;
+    border: 2px rgba(197, 7, 7, 0.747) solid ;
+    border-radius: 30px;
+}
+.img-product img:hover{
+    
+    width: 50%;
+    height: 50%;
+    border: 5px solid .5s;
+    border-radius: 30px;
+    box-shadow: 3px 5px 5px #706f6f;
+    
+}
+
+/*img*/
+.border-danger{
+  
+    box-shadow: 3px 5px 5px #706f6f;
+
 }
